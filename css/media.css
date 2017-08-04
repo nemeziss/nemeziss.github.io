@@ -50,13 +50,13 @@ padding-top: 2px;
 }
 
 .links li ul {
-	left: 178px;
+	left: 181px;
 	top: -999em;
 	display: block;
 	position: absolute;
 }
 .links ul li:hover > ul {
-	top: 0px;
+	top: -5px;
 }
 
 .car-image > img {
