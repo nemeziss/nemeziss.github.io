@@ -62,7 +62,7 @@ padding-top: 2px;
 	position: absolute;
 }
 .links ul li:hover > ul {
-	top: -5.5px;
+	top: 2px;
 }
 
 .car-image > img {
