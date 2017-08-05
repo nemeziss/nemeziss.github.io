@@ -1,6 +1,6 @@
 function clickbtnmenu() {
 	var hideshowlist = document.getElementById('mocha');
-  hideshowlist.style.display = (hideshowlist.style.display == 'none') ? 'block' : 'none';
+  hideshowlist.style.display = (hideshowlist.style.display == 'block') ? 'none' : 'block';
 }
 
 function hidemenu() {
