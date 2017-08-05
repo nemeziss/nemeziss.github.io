@@ -50,13 +50,13 @@ padding-top: 2px;
 }
 
 .links li ul {
-	left: 176px;
+	left: 178px;
 	top: -999em;
 	display: block;
 	position: absolute;
 }
 .links ul li:hover > ul {
-	top: -5.5px;
+	top: 0px;
 }
 
 .car-image > img {
@@ -72,16 +72,6 @@ padding-top: 2px;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.links ul {
-		font-size: 13px;
-	}
-	.links li ul {
-		left: 163px;
-	}
-
-	.links  li > ul {
-		min-width: 145px;
-	}
 
 }
 
