@@ -79,6 +79,10 @@ padding-top: 2px;
 		left: 163px;
 	}
 
+	.links  li > ul {
+		min-width: 140px;
+	}
+
 }
 
 /* Custom, iPhone Retina */
