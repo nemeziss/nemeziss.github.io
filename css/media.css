@@ -8,6 +8,7 @@
 
 .links > ul {
 	margin-left: 80px;
+	display: flex;
 }
 
 }
@@ -19,6 +20,11 @@
 		position: absolute;
 		font-size: 12px;
 		margin-left: 100px;
+		display: flex;
+	}
+
+	.links li ul li {
+		top: -5px;
 	}
 
 .top-menu {
@@ -56,7 +62,7 @@ padding-top: 2px;
 	position: absolute;
 }
 .links ul li:hover > ul {
-	top: 0px;
+	top: -5.5px;
 }
 
 .car-image > img {
@@ -72,6 +78,16 @@ padding-top: 2px;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.links ul {
+		font-size: 13px;
+	}
+	.links li ul {
+		left: 163px;
+	}
+
+	.links  li > ul {
+		min-width: 145px;
+	}
 
 }
 
