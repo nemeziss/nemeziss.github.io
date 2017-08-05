@@ -25,6 +25,7 @@
 
 	.links li ul li {
 		top: -5px;
+		left: 1px;
 	}
 
 .top-menu {
@@ -56,7 +57,7 @@ padding-top: 2px;
 }
 
 .links li ul {
-	left: 178px;
+	left: 179px;
 	top: -999em;
 	display: block;
 	position: absolute;

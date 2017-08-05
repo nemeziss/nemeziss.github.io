@@ -91,11 +91,11 @@ padding: 10px 35px 10px 35px;
 }
 
 .links > ul li:first-child {
-	border-left: 1px solid #b2b3b5;
+	border-left: 1px solid #c7c8ca;
 }
 
 .links > ul li:last-child {
-	border-right: 1px solid #babbbb;
+	border-right: 1px solid #c7c8ca;
 }
 
 .links li a:hover {
@@ -130,7 +130,10 @@ padding: 10px 35px 10px 35px;
 	top: -9999em;
 }
 .links li ul li {
-	border: 1px solid #c7c8ca;
+	border-left: 1px solid #c7c8ca;
+}
+.links li ul li:first-child{
+	border-top: 1px solid #c7c8ca;
 }
 
 .links li ul li a {
