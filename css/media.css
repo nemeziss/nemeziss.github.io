@@ -72,6 +72,12 @@ padding-top: 2px;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.links ul {
+		font-size: 13px;
+	}
+	.links li ul {
+		left: 163px;
+	}
 
 }
 
