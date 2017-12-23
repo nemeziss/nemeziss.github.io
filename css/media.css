@@ -23,6 +23,14 @@
 		display: flex;
 	}
 
+	.top-menu > .container {
+		border: none;
+	}
+
+	.top-menu {
+		border-bottom: 1px solid;
+	}
+
 	.links li ul li {
 		top: -5px;
 		left: 1px;
